@@ -85,6 +85,7 @@
             padding: 40px;
             border-radius: 2px;
             position: relative;
+            margin-bottom: 40px; /* Espace pour le bouton en dessous */
         }
 
         .presentation-text {
@@ -99,6 +100,26 @@
         .presentation-text strong {
             font-weight: 500;
             color: #ffffff;
+        }
+
+        /* Style du bouton Me Contacter */
+        .contact-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            padding: 15px 40px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.4s ease;
+            margin-top: 10px;
+        }
+
+        .contact-btn:hover {
+            background-color: #ffffff;
+            color: #2c3e50;
+            letter-spacing: 5px;
         }
 
         /* Animations */
@@ -118,6 +139,7 @@
             .nav-link { font-size: 0.7rem; }
             h1 { font-size: 2rem; letter-spacing: 5px; }
             .presentation-box { padding: 25px; }
+            .contact-btn { padding: 12px 30px; font-size: 0.7rem; }
         }
     </style>
 </head>
@@ -152,6 +174,8 @@
                 </p>
             </div>
         </div>
+
+        <a href="https://chiron-site.github.io/Portfolio-contact-Louis-Chiron/" class="contact-btn">Me contacter</a>
     </div>
 
 </body>
